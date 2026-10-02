@@ -10,7 +10,7 @@
     "steps": [],
     "hypothesis": "",
     "expected": "Archestra installed and running",
-    "actual": "Given only a link to the Archestra docs, the agent installed Archestra on its own, without asking the user anything. Docker Desktop was already on the machine.",
+    "actual": "Given only a link to the Archestra docs, the agent installed Archestra on its own. Docker Desktop was already on the machine.",
     "contribution_idea": "none",
     "featured": true,
     "artifacts": []
@@ -26,7 +26,7 @@
     "steps": [],
     "hypothesis": "",
     "expected": "The script sees the platform is up and moves on",
-    "actual": "The install script waited for HTTP 200, but the UI answers with a 307 redirect to `/auth/sign-in?redirectTo=/chat`. It waited for ~9 minutes for nothing, though the platform was up after 1-2 minutes. The tester had to step in.",
+    "actual": "The install script waited for HTTP 200, but the UI answers with a 307 redirect to `/auth/sign-in?redirectTo=/chat`. It waited for ~9 minutes for nothing, though the platform was up after 1-2 minutes. Once the tester asked whether everything was fine, the agent looked into it on its own, found the problem and finished the install.",
     "contribution_idea": "Document readiness check / health endpoint in quickstart",
     "artifacts": []
   },
@@ -77,7 +77,7 @@
     "steps": [],
     "hypothesis": "",
     "expected": "Highlighted option is either selected or clearly not; form can be sent or skipped",
-    "actual": "The visible focus ring on the first option is good accessibility practice, but the tester mistook it for a selected option. The form showed 2/3 answered and would not let them continue. Not a bug, but this is the very first screen, and first impressions matter.",
+    "actual": "We like the visible focus ring on the first option: it is good accessibility practice, and the design choice is right. But the tester mistook it for a selected option. The first option was \"Software engineer\", which is the tester's job, so they left it untouched. The form then showed 2/3 answered and would not let them continue. Not a bug, but this is the very first screen, and first impressions matter.",
     "contribution_idea": "Make the first option selected by default",
     "artifacts": [
       {
