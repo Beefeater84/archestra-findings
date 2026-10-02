@@ -1,0 +1,3 @@
+Claude CLI, model Opus 5.5, prompt copied from the Archestra connect page.
+Response (verbatim start): Permission for this action was denied by the Claude Code auto mode classifier. Reason: [Code from External].
+(Remainder: standard guidance not to work around the denial; user may add a Bash permission rule.)

@@ -1,0 +1,4 @@
+Prompt level 1: check whether C:Users or /mnt/c exists, list top-level names only.
+Answer:
+C:Users: does not exist
+/mnt/c: does not exist

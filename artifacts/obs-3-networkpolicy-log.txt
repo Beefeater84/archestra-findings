@@ -1,0 +1,1 @@
+[09:38:46 UTC] INFO: NetworkPolicy enforcement unavailable on this cluster; MCP egress controls (off/restricted modes and the SSRF floor) are created but NOT enforced {"provider":"none","message":"NetworkPolicy enforcement has not been verified on this cluster. Egress rules are applied, but no test has confirmed the cluster acts on them."}

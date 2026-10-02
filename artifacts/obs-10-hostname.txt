@@ -1,0 +1,5 @@
+Agent answer to: run hostname and cat /etc/os-release
+hostname: dagger
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+VERSION_ID=12
+VERSION_CODENAME=bookworm

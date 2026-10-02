@@ -1,0 +1,10 @@
+Query 2:
+/proc/1/cgroup: 0::/
+/.dockerenv: Not present
+KUBERNETES_SERVICE_HOST: Not set
+
+Query 5:
+$ whoami
+whoami: cannot find name for user ID 1000
+$ id
+uid=1000 gid=1000 groups=1000
